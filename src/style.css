@@ -1,0 +1,32 @@
+.hit, .miss, .empty {
+    border: 1px solid #000;
+    float: left;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .hit {
+    background: #f00;
+  }
+  
+  .miss {
+    background: #ccc;
+  }
+  
+  .game-row:after {
+    display: table;
+    clear: both;
+    content: "";
+    border:2px dotted black;
+  }
+  
+  .hidden {
+    display: none;
+    border:2px dotted black;
+  }
+  .colclass{
+      border:2px dotted black;
+  }
+  /* p{
+    border:2px solid black;
+  } */
