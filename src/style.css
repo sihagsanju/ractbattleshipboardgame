@@ -11,26 +11,12 @@
     height: 50px;
     
   }
-  
-  /* .hit {
-    background: #f00;
-  }
-  
-  .miss {
-    background: #ccc;
-  }
-   */
   .game-row:after {
     display: table;
     clear: both;
     content: "";
   
   }
-  
-  /* .hidden {
-    display: none;
-    /* border:2px dotted black; 
-  } */
   .colclass{
       border:2px dotted black;
   }
@@ -38,11 +24,22 @@
       margin-left: 20em;
       float: right;
       margin-right: 10em;
+      border:.5em solid black;
+      background-color: aqua;
   }
   .first{
       float:left;
+      border:.5em solid black;
+      background-color: aqua;
+      margin-top: 1.5em;
   }
   .text{
       margin-left: 4em;
       
+  }
+  .title{
+      text-align: center;
+  }
+  body{
+      background-color: blue;
   }
